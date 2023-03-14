@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ### Create json file
 
 ```shell
-python inference.py --input_saved_model_dir_path '~/.vaik-classification-pth-trainer/output_model/onnx/model.onnx' \
+python inference.py --input_saved_model_path '~/.vaik-classification-pth-trainer/output_model/onnx/model.onnx' \
                 --input_classes_path '~/.vaik-mnist-classification-dataset/classes.txt' \
                 --input_image_dir_path '~/.vaik-mnist-classification-dataset/valid' \
                 --output_json_dir_path '~/.vaik-mnist-classification-dataset/valid_inference'
